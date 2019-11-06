@@ -18,7 +18,7 @@ if (!defined('ABSPATH')) {
 }
 /** Constants **************************************************************** */
 global $wpdb, $current_user;
-mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
+//mysql_connect(DB_HOST, DB_USER, DB_PASSWORD);
 
 if (!defined('WP_BINARY_MLM_ULR')){
     define('WP_BINARY_MLM_ULR', 'http://wpbinarymlm.com');
